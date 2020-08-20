@@ -6,9 +6,10 @@
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-0.0.29.tgz#a1e514adfbd92f03a224ba54d693111dbf1f3754"
 
-"@types/i2c-bus@^1.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@types/i2c-bus/-/i2c-bus-1.0.1.tgz#353ddd8095caee987b360035404b27073db2d177"
+"@types/i2c-bus@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@types/i2c-bus/-/i2c-bus-5.1.0.tgz#241b91d40deb0b2d08ed60862efa655e53e96c30"
+  integrity sha512-zBwBpfaFzKtYaS2j/sh+m/zKRcbXuG26/wWlJq3F9+oWXQ9DSxuJXOU+t1PMorj3DBZzpLO8LqbVTGRE1PUb3g==
   dependencies:
     "@types/node" "*"
 
@@ -20,9 +21,12 @@ balanced-match@^0.4.1:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz#cb3f3e3c732dc0f01ee70b403f302e61d7709838"
 
-bindings@~1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
+bindings@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
+  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
+  dependencies:
+    file-uri-to-path "1.0.0"
 
 brace-expansion@^1.0.0:
   version "1.1.6"
@@ -48,6 +52,11 @@ debug@^2.2:
 diff@^2.2.1:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/diff/-/diff-2.2.3.tgz#60eafd0d28ee906e4e8ff0a52c1229521033bf99"
+
+file-uri-to-path@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
+  integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
 
 findup-sync@~0.3.0:
   version "0.3.0"
@@ -80,12 +89,13 @@ glob@~5.0.0:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-i2c-bus@^1.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/i2c-bus/-/i2c-bus-1.1.2.tgz#4ca3ce5c9711e74d466a07f52cba54374b7364d7"
+i2c-bus@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/i2c-bus/-/i2c-bus-5.2.0.tgz#0813a9e4ac7dafd4c92101afbeea2bd29e9f6f56"
+  integrity sha512-VSdNOTL58ioIx+J9JJZZorloKASqrLmXotN2nDfO4zxkJ4L7SbPrWOiOt2Zijs56Xm5LEd9QmJYmUDXcEekpwA==
   dependencies:
-    bindings "~1.2.1"
-    nan "~2.4.0"
+    bindings "^1.5.0"
+    nan "^2.14.1"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -112,9 +122,10 @@ ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
 
-nan@~2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
+nan@^2.14.1:
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
+  integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
 once@^1.3.0:
   version "1.4.0"

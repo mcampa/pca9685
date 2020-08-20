@@ -9,7 +9,7 @@
  */
 
 import * as debugFactory from "debug";
-import { I2cBus } from "i2c-bus";
+import { I2CBus } from "i2c-bus";
 import { Observable } from "rxjs/Observable";
 import { Subject } from "rxjs/Subject";
 import { Subscriber } from "rxjs/Subscriber";
@@ -42,8 +42,8 @@ const constants = {
 
 
 export interface Pca9685Options {
-    /** An open I2cBus object to be used to communicate with the PCA9685 driver. */
-    i2c: I2cBus;
+    /** An open I2CBus object to be used to communicate with the PCA9685 driver. */
+    i2c: I2CBus;
 
     /**
      * The I2C address of the PCA9685 driver.
@@ -445,7 +445,7 @@ export class Pca9685Driver {
     private commandSubject: Subject<I2cPacketGroup>;
     private debug: debugFactory.IDebugger;
     private frequency: number;
-    private i2c: I2cBus;
+    private i2c: I2CBus;
     private stepLengthMicroSeconds: number;
 
 }

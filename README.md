@@ -66,7 +66,7 @@ PWM/servo driver.
 
 ## Options
 
-- `i2c`: The I2cBus object used to communicate to the PWM/servo driver.
+- `i2c`: The I2CBus object used to communicate to the PWM/servo driver.
 - `address`: The I2C address of the PCA9685 PWM/servo driver.
 - `frequency`: The frequency to use for the PWM/servo driver. 50 is
     standard for servos, but higher frequencies might work better for
